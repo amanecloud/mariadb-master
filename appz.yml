@@ -1,7 +1,7 @@
 app:
     name: mariadb Master
     code: mariadbmaster
-    notify: mniju@ecloudcontrol.com
+    notify: mniju@cloudcontrol.com
 
 build:
     version: 10.4
