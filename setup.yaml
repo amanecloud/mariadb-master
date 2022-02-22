@@ -23,4 +23,3 @@ acl:
   - database: springbootweb
     user: springbootweb
     access: ALL
-    
