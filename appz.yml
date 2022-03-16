@@ -37,4 +37,4 @@ properties:
       vault: MYSQL_ROOT_PASSWORD_KEY
     MYSQL_SPRINGBOOTWEB_PASSWORD:
       vault: MYSQL_SPRINGBOOTWEB_PASSWORD
-    revision : 50
+    revision : 51
