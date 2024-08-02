@@ -38,4 +38,4 @@ properties:
       vault: MYSQL_ROOT_PASSWORD
     MYSQL_SPRINGBOOTWEB_PASSWORD:
       vault: MYSQL_SPRINGBOOTWEB_PASSWORD
-    revision : 3
+    revision : 4
