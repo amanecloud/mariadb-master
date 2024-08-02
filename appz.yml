@@ -1,7 +1,7 @@
 app:
     name: mariadb Master
     code: mariadbmaster
-    notify: mniju@ecloudcontrol.com
+    notify: apatnaik@ecloudcontrol.com
 
 build:
     version: 10.4
@@ -11,7 +11,7 @@ build:
     image_template: mariadb_master-10.4
 
 deploy:
-    context: mushraf6461/DEV
+    context: amanecloud/DEV
     type: statefulset
     ingress: none
     replicas: 1
@@ -35,7 +35,7 @@ properties:
     MYSQL_WORDPRESS_PASSWORD:
       vault: MYSQL_WORDPRESS_PASSWORD
     MYSQL_ROOT_PASSWORD:
-      vault: MYSQL_ROOT_PASSWORD_KEY
+      vault: MYSQL_ROOT_PASSWORD
     MYSQL_SPRINGBOOTWEB_PASSWORD:
       vault: MYSQL_SPRINGBOOTWEB_PASSWORD
-    revision : 57
+    revision : 0
